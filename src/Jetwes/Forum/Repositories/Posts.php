@@ -1,6 +1,6 @@
-<?php namespace Jetwes\Forum\Repositories;
+<?php namespace Jemy09\Forum\Repositories;
 
-use Jetwes\Forum\Models\Post;
+use Jemy09\Forum\Models\Post;
 
 class Posts extends BaseRepository {
 
