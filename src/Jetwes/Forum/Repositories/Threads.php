@@ -1,6 +1,6 @@
-<?php namespace Jetwes\Forum\Repositories;
+<?php namespace Jemy09\Forum\Repositories;
 
-use Jetwes\Forum\Models\Thread;
+use Jemy09\Forum\Models\Thread;
 
 class Threads extends BaseRepository {
 
