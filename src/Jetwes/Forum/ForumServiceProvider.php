@@ -1,4 +1,4 @@
-<?php namespace Jetwes\Forum;
+<?php namespace Jemy09\Forum;
 
 use Illuminate\Support\ServiceProvider;
 
