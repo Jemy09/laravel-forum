@@ -1,16 +1,16 @@
-<?php namespace Jetwes\Forum\Controllers;
+<?php namespace Jemy09\Forum\Controllers;
 
 use App;
 use Config;
 use Request;
 use Illuminate\Routing\Controller;
 use Redirect;
-use Jetwes\Forum\Repositories\Categories;
-use Jetwes\Forum\Repositories\Threads;
-use Jetwes\Forum\Repositories\Posts;
-use Jetwes\Forum\Libraries\AccessControl;
-use Jetwes\Forum\Libraries\Alerts;
-use Jetwes\Forum\Libraries\Validation;
+use Jemy09\Forum\Repositories\Categories;
+use Jemy09\Forum\Repositories\Threads;
+use Jemy09\Forum\Repositories\Posts;
+use Jemy09\Forum\Libraries\AccessControl;
+use Jemy09\Forum\Libraries\Alerts;
+use Jemy09\Forum\Libraries\Validation;
 use Route;
 use View;
 use Validator;
