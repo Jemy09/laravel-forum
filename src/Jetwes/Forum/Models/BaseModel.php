@@ -1,4 +1,4 @@
-<?php namespace Jetwes\Forum\Models;
+<?php namespace Jemy09\Forum\Models;
 
 use Cache;
 use Carbon\Carbon;
