@@ -1,6 +1,6 @@
-<?php namespace Jetwes\Forum\Repositories;
+<?php namespace Jemy09\Forum\Repositories;
 
-use Jetwes\Forum\Models\Category;
+use Jemy09\Forum\Models\Category;
 
 class Categories extends BaseRepository {
 
