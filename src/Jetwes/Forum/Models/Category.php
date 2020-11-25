@@ -1,8 +1,8 @@
-<?php namespace Jetwes\Forum\Models;
+<?php namespace Jemy09\Forum\Models;
 
 use Illuminate\Support\Str;
-use Jetwes\Forum\Models\Thread;
-use Jetwes\Forum\Libraries\AccessControl;
+use Jemy09\Forum\Models\Thread;
+use Jemy09\Forum\Libraries\AccessControl;
 
 
 class Category extends BaseModel {
