@@ -1,4 +1,4 @@
-<?php namespace Jetwes\Forum\Libraries;
+<?php namespace Jemy09\Forum\Libraries;
 
 class Alerts {
 
