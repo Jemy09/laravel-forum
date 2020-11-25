@@ -1,7 +1,7 @@
-<?php namespace Jetwes\Forum\Libraries;
+<?php namespace Jemy09\Forum\Libraries;
 
 use Request;
-use Jetwes\Forum\Libraries\Alerts;
+use Jemy09\Forum\Libraries\Alerts;
 use Validator;
 
 class Validation {
