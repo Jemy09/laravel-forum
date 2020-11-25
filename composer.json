@@ -1,11 +1,11 @@
 {
-    "name": "jetwes/laravel-forum",
+    "name": "jemy09/laravel-forum",
     "description": "A complete forum package designed for easy integration into any Laravel 4/5 application",
     "keywords": ["laravel", "laravel-4", "laravel-5", "forum", "discuss"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jetwes",
+            "name": "Jemy09",
             "email": "j.twesmann@star-media.biz"
         }
     ],
@@ -18,7 +18,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Jetwes\\Forum\\": "src/"
+            "Jemy09\\Forum\\": "src/"
         }
     },
     "minimum-stability": "dev"

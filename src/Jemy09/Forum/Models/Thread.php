@@ -18,7 +18,7 @@ class Thread extends BaseModel {
 
     public function category()
     {
-        return $this->belongsTo('\Jetwes\Forum\Models\Category', 'parent_category');
+        return $this->belongsTo('\Jemy09\Forum\Models\Category', 'parent_category');
     }
 
     public function author()
@@ -28,7 +28,7 @@ class Thread extends BaseModel {
 
     public function posts()
     {
-        return $this->hasMany('\Jetwes\Forum\Models\Post', 'parent_thread');
+        return $this->hasMany('\Jemy09\Forum\Models\Post', 'parent_thread');
     }
 
     public function getPostsPaginatedAttribute()

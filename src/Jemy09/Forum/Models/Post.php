@@ -17,7 +17,7 @@ class Post extends BaseModel {
 
 	public function thread()
 	{
-		return $this->belongsTo('\Jetwes\Forum\Models\Thread', 'parent_thread');
+		return $this->belongsTo('\Jemy09\Forum\Models\Thread', 'parent_thread');
 	}
 
 	public function author()

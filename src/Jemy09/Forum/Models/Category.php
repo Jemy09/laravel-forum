@@ -13,17 +13,17 @@ class Category extends BaseModel {
 
     public function parentCategory()
     {
-        return $this->belongsTo('\Jetwes\Forum\Models\Category', 'parent_category')->orderBy('weight');
+        return $this->belongsTo('\Jemy09\Forum\Models\Category', 'parent_category')->orderBy('weight');
     }
 
     public function subcategories()
     {
-        return $this->hasMany('\Jetwes\Forum\Models\Category', 'parent_category')->orderBy('weight');
+        return $this->hasMany('\Jemy09\Forum\Models\Category', 'parent_category')->orderBy('weight');
     }
 
     public function threads()
     {
-        return $this->hasMany('\Jetwes\Forum\Models\Thread', 'parent_category')->with('category', 'posts');
+        return $this->hasMany('\Jemy09\Forum\Models\Thread', 'parent_category')->with('category', 'posts');
     }
 
     public function getThreadsPaginatedAttribute()
