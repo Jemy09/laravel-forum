@@ -1,8 +1,8 @@
-<?php namespace Jetwes\Forum\Models;
+<?php namespace Jemy09\Forum\Models;
 
 use Redirect;
-use Jetwes\Forum\Libraries\AccessControl;
-use Jetwes\Forum\Libraries\Alerts;
+use Jemy09\Forum\Libraries\AccessControl;
+use Jemy09\Forum\Libraries\Alerts;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Str;
 
