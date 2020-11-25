@@ -1,8 +1,8 @@
-<?php namespace Jetwes\Forum\Models;
+<?php namespace Jemy09\Forum\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Str;
-use Jetwes\Forum\Libraries\AccessControl;
+use Jemy09\Forum\Libraries\AccessControl;
 
 class Post extends BaseModel {
 
